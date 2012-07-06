@@ -1,0 +1,35 @@
+==================================================
+Changes from 1738-09-20 00:00:00 +0000 to present.
+==================================================
+
+------------------------------------------
+version 0.002 at 2012-07-04 21:17:21 +0000
+------------------------------------------
+
+  Change: 160300c1963875eda10881933ff80f41fcb20127
+  Author: Torsten Raudssus <torsten@raudss.us>
+  Date : 2012-07-04 17:16:42 +0000
+
+    Added ChangelogFromGit on dist.ini 
+
+  Change: d57ae51243b64a9e96d9413ee87ae7dd8c7ce8a1
+  Author: Torsten Raudssus <torsten@raudss.us>
+  Date : 2012-07-04 17:15:12 +0000
+
+    Added .gitignore 
+
+  Change: f68729f8b9815a34ac63e2cc5792c148a52aecac
+  Author: Torsten Raudssus <torsten@raudss.us>
+  Date : 2012-07-04 17:13:54 +0000
+
+    Added documentation 
+
+  Change: 57818a92218fc7e770fd3ec9f68f884652862559
+  Author: Torsten Raudssus <torsten@raudss.us>
+  Date : 2012-07-04 17:07:22 +0000
+
+    First release, tests, documentation still missing 
+
+================
+End of releases.
+================

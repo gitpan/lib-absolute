@@ -39,7 +39,7 @@
          "web" : "https://github.com/Getty/p5-lib-absolute"
       }
    },
-   "version" : "0.001",
+   "version" : "0.002",
    "x_Dist_Zilla" : {
       "plugins" : [
          {
@@ -219,6 +219,11 @@
             },
             "name" : "TestRequires",
             "version" : "4.300020"
+         },
+         {
+            "class" : "Dist::Zilla::Plugin::ChangelogFromGit",
+            "name" : "ChangelogFromGit",
+            "version" : "0.005"
          },
          {
             "class" : "Dist::Zilla::Plugin::FinderCode",

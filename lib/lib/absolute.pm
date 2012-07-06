@@ -3,7 +3,7 @@ BEGIN {
   $lib::absolute::AUTHORITY = 'cpan:GETTY';
 }
 {
-  $lib::absolute::VERSION = '0.001';
+  $lib::absolute::VERSION = '0.002';
 }
 # ABSTRACT: Convert all paths in @INC to absolute paths
 
@@ -40,7 +40,7 @@ lib::absolute - Convert all paths in @INC to absolute paths
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 SYNOPSIS
 

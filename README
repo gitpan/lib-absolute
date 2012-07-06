@@ -1,7 +1,7 @@
 
 
 This archive contains the distribution lib-absolute,
-version 0.001:
+version 0.002:
 
   Convert all paths in @INC to absolute paths
 
