@@ -17,8 +17,8 @@ requires:
   Path::Class: 0
 resources:
   homepage: https://github.com/Getty/p5-lib-absolute
-  repository: git://github.com/Getty/p5-lib-absolute.git
-version: 0.003
+  repository: https://github.com/Getty/p5-lib-absolute.git
+version: 0.004
 x_Dist_Zilla:
   plugins:
     -
@@ -39,112 +39,128 @@ x_Dist_Zilla:
       version: 4.300020
     -
       class: Dist::Zilla::Plugin::GatherDir
-      name: '@Basic/GatherDir'
+      name: '@Author::GETTY/@Basic/GatherDir'
       version: 4.300020
     -
       class: Dist::Zilla::Plugin::PruneCruft
-      name: '@Basic/PruneCruft'
+      name: '@Author::GETTY/@Basic/PruneCruft'
       version: 4.300020
     -
       class: Dist::Zilla::Plugin::ManifestSkip
-      name: '@Basic/ManifestSkip'
+      name: '@Author::GETTY/@Basic/ManifestSkip'
       version: 4.300020
     -
       class: Dist::Zilla::Plugin::MetaYAML
-      name: '@Basic/MetaYAML'
+      name: '@Author::GETTY/@Basic/MetaYAML'
       version: 4.300020
     -
       class: Dist::Zilla::Plugin::License
-      name: '@Basic/License'
+      name: '@Author::GETTY/@Basic/License'
       version: 4.300020
     -
       class: Dist::Zilla::Plugin::Readme
-      name: '@Basic/Readme'
+      name: '@Author::GETTY/@Basic/Readme'
       version: 4.300020
     -
       class: Dist::Zilla::Plugin::ExtraTests
-      name: '@Basic/ExtraTests'
+      name: '@Author::GETTY/@Basic/ExtraTests'
       version: 4.300020
     -
       class: Dist::Zilla::Plugin::ExecDir
-      name: '@Basic/ExecDir'
+      name: '@Author::GETTY/@Basic/ExecDir'
       version: 4.300020
     -
       class: Dist::Zilla::Plugin::ShareDir
-      name: '@Basic/ShareDir'
+      name: '@Author::GETTY/@Basic/ShareDir'
       version: 4.300020
     -
       class: Dist::Zilla::Plugin::MakeMaker
-      name: '@Basic/MakeMaker'
+      name: '@Author::GETTY/@Basic/MakeMaker'
       version: 4.300020
     -
       class: Dist::Zilla::Plugin::Manifest
-      name: '@Basic/Manifest'
+      name: '@Author::GETTY/@Basic/Manifest'
       version: 4.300020
     -
       class: Dist::Zilla::Plugin::TestRelease
-      name: '@Basic/TestRelease'
+      name: '@Author::GETTY/@Basic/TestRelease'
       version: 4.300020
     -
       class: Dist::Zilla::Plugin::ConfirmRelease
-      name: '@Basic/ConfirmRelease'
+      name: '@Author::GETTY/@Basic/ConfirmRelease'
       version: 4.300020
     -
       class: Dist::Zilla::Plugin::UploadToCPAN
-      name: '@Basic/UploadToCPAN'
+      name: '@Author::GETTY/@Basic/UploadToCPAN'
       version: 4.300020
     -
       class: Dist::Zilla::Plugin::Git::NextVersion
-      name: Git::NextVersion
+      name: '@Author::GETTY/Git::NextVersion'
       version: 1.121010
     -
       class: Dist::Zilla::Plugin::PkgVersion
-      name: PkgVersion
+      name: '@Author::GETTY/PkgVersion'
       version: 4.300020
     -
       class: Dist::Zilla::Plugin::MetaConfig
-      name: MetaConfig
+      name: '@Author::GETTY/MetaConfig'
       version: 4.300020
     -
       class: Dist::Zilla::Plugin::MetaJSON
-      name: MetaJSON
+      name: '@Author::GETTY/MetaJSON'
       version: 4.300020
     -
       class: Dist::Zilla::Plugin::PodSyntaxTests
-      name: PodSyntaxTests
+      name: '@Author::GETTY/PodSyntaxTests'
       version: 4.300020
     -
-      class: Dist::Zilla::Plugin::GithubMeta
-      name: GithubMeta
-      version: 0.28
-    -
-      class: Dist::Zilla::Plugin::Authority
-      name: Authority
-      version: 1.006
-    -
       class: Dist::Zilla::Plugin::Repository
-      name: Repository
+      name: '@Author::GETTY/Repository'
       version: 0.18
     -
+      class: Dist::Zilla::Plugin::GithubMeta
+      name: '@Author::GETTY/GithubMeta'
+      version: 0.28
+    -
+      class: Dist::Zilla::Plugin::InstallRelease
+      name: '@Author::GETTY/InstallRelease'
+      version: 0.008
+    -
+      class: Dist::Zilla::Plugin::Authority
+      name: '@Author::GETTY/Authority'
+      version: 1.006
+    -
+      class: Dist::Zilla::Plugin::Prereqs
+      config:
+        Dist::Zilla::Plugin::Prereqs:
+          phase: test
+          type: requires
+      name: '@Author::GETTY/TestMoreWithSubtests'
+      version: 4.300020
+    -
+      class: Dist::Zilla::Plugin::ChangelogFromGit
+      name: '@Author::GETTY/ChangelogFromGit'
+      version: 0.005
+    -
+      class: Dist::Zilla::Plugin::PodWeaver
+      name: '@Author::GETTY/PodWeaver'
+      version: 3.101641
+    -
       class: Dist::Zilla::Plugin::Git::Check
-      name: '@Git/Check'
+      name: '@Author::GETTY/@Git/Check'
       version: 1.121010
     -
       class: Dist::Zilla::Plugin::Git::Commit
-      name: '@Git/Commit'
+      name: '@Author::GETTY/@Git/Commit'
       version: 1.121010
     -
       class: Dist::Zilla::Plugin::Git::Tag
-      name: '@Git/Tag'
+      name: '@Author::GETTY/@Git/Tag'
       version: 1.121010
     -
       class: Dist::Zilla::Plugin::Git::Push
-      name: '@Git/Push'
+      name: '@Author::GETTY/@Git/Push'
       version: 1.121010
-    -
-      class: Dist::Zilla::Plugin::ChangelogFromGit
-      name: ChangelogFromGit
-      version: 0.005
     -
       class: Dist::Zilla::Plugin::FinderCode
       name: ':InstallModules'
