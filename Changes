@@ -3,8 +3,20 @@ Changes from 1738-09-20 00:00:00 +0000 to present.
 ==================================================
 
 ------------------------------------------
-version 0.002 at 2012-07-04 21:17:21 +0000
+version 0.003 at 2012-07-04 21:19:56 +0000
 ------------------------------------------
+
+  Change: ba0fa74514b6ad0cc89adc263686d0e9b046bc77
+  Author: Torsten Raudssus <torsten@raudss.us>
+  Date : 2012-07-04 17:19:17 +0000
+
+    Forgot to remove double ChangelogFromGit in dist.ini 
+
+  Change: d8ce130dae1964d3619247e8d59a2dc8eadf00d8
+  Author: Torsten Raudssus <torsten@raudss.us>
+  Date : 2012-07-04 17:18:34 +0000
+
+    Note to myself: update your Author Pluginbundle..... 
 
   Change: 160300c1963875eda10881933ff80f41fcb20127
   Author: Torsten Raudssus <torsten@raudss.us>
